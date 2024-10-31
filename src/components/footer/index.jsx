@@ -1,6 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
+import PrivacyPolicy from '@/components/PrivacyPolicy';
+import Terms from '@/components/Terms';
+
 // Icons
 import { FaMapPin, FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
@@ -73,6 +76,10 @@ const index = () => {
               Rodovia estadual, PR-182 - conexão com BR Toledo | Paraná
             </span>
           </div>
+        </div>
+        <div className='flex pb-10'>
+          <PrivacyPolicy />
+          <Terms />
         </div>
       </div>
     </div>
